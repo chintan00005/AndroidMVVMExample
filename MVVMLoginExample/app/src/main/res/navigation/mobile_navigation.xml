@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_people">
+
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.mvvmloginexample.browsablePage.view.ui.tools.ToolsFragment"
+        android:label="About us"
+        tools:layout="@layout/fragment_aboutus" />
+
+    <fragment
+        android:id="@+id/nav_terms"
+        android:name="com.example.mvvmloginexample.browsablePage.view.ui.terms.TermsFragment"
+        android:label="Terms and Conditions"
+        tools:layout="@layout/fragment_terms" />
+
+    <fragment
+        android:id="@+id/nav_people"
+        android:name="com.example.mvvmloginexample.browsablePage.view.ui.personlist.PersonListFragment"
+        android:label="People List"
+        tools:layout="@layout/person_list" />
+
+    <fragment
+        android:id="@+id/nav_open_intent"
+        android:name="com.example.mvvmloginexample.browsablePage.view.ui.startintent.StartIntentFragment"
+        android:label="Open Apps"
+        tools:layout="@layout/openintent_layout" />
+
+    <fragment
+        android:id="@+id/nav_change_lang"
+        android:name="com.example.mvvmloginexample.browsablePage.view.ui.changelang.ChangeLangFragment"
+        android:label="Change Language"
+        tools:layout="@layout/change_lang" />
+
+
+</navigation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MVVMLoginExample!!!</string>
+    <string name="title_activity_main_drawer">MainDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Gracias</string>
+    <string name="menu_gallery">Lo siento</string>
+    <string name="menu_slideshow">Salud</string>
+    <string name="menu_tools">Sí</string>
+    <string name="menu_share">Sí</string>
+    <string name="menu_send">Gracias</string>
+
+    <string name="button_one">Oness</string>
+    <string name="button_two">Tros</string>
+    <string name="button_three">Thresssssssss</string>
+
+    <string name="button_english">English</string>
+    <string name="button_spanish">Spanish</string>
+
+    <string name="text_selected_lang">Spanish</string>
+
+    <string name="text_menu_list">Lista de personas</string>
+    <string name="text_menu_open_app">Aplicaciones abiertas</string>
+    <string name="text_menu_change_lang">Cambiar idioma</string>
+    <string name="text_menu_about_us">Sobre nosotros</string>
+    <string name="text_menu_terms">Términos y Condiciones</string>
+    <string name="text_menu_logout">Cerrar sesión</string>
+</resources>

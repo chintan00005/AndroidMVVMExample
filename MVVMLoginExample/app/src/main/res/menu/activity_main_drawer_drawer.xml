@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/text_menu_list" />
+        <item
+            android:id="@+id/nav_open_intent"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/text_menu_open_app" />
+        <item
+            android:id="@+id/nav_change_lang"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/text_menu_change_lang" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/text_menu_about_us" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/text_menu_terms" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/text_menu_logout" />
+
+    </group>
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_menu_send"-->
+<!--                android:title="@string/menu_send" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>
